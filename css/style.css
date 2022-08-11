@@ -800,7 +800,7 @@ html, body {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
-    .li18:hover , .li19:hover , .li20:hover , .li21:hover , .li22:hover  .li23:hover , .li24:hover , .li25:hover , .li26:hover ,
+    .li18:hover , .li19:hover , .li20:hover , .li21:hover , .li22:hover , .li23:hover , .li24:hover , .li25:hover , .li26:hover ,
     .li18:focus , .li19:focus , .li20:focus , .li21:focus , .li22:focus , .li23:focus , .li24:focus , .li25:focus , .li26:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     }
