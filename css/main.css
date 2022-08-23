@@ -1168,7 +1168,7 @@ footer a:focus {
 }
 
 /*Adaptive*/
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   header {
     width: 768px;
   }
@@ -1348,6 +1348,34 @@ footer a:focus {
   }
   .main-section-6 {
     width: 768px;
+  }
+  .main-section-6 ul {
+    width: 768px;
+    flex-wrap: wrap;
+  }
+  .main-section-7 ul {
+    width: 768px;
+    flex-wrap: wrap;
+  }
+  .main-section-8 ul {
+    width: 768px;
+    flex-wrap: wrap;
+  }
+  .li20, .li23, .li26 {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .li21 {
+    position: absolute;
+    left: 399px;
+    top: 705px;
+  }
+  .li22 {
+    margin-left: 0px;
+    margin-right: 30px;
+  }
+  .li23 {
+    margin-top: 0px;
   }
   .main-section-7 {
     width: 768px;
