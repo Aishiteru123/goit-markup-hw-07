@@ -1328,6 +1328,9 @@ footer a:focus {
     position: absolute;
     visibility: hidden;
   }
+  .overlay {
+    width: 354px;
+  }
   .overlay-text {
     width: 354px;
     height: 294px;
