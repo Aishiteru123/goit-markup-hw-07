@@ -1179,118 +1179,155 @@ footer a:focus {
 }
 
 /*Adaptive*/
-@media (min-width: 480px) {
-  header {
-    width: 480px;
-  }
-  .line {
-    width: 480px;
-  }
-  header .logo-link {
-    margin-right: 284px;
-  }
-  header nav {
-    position: absolute;
-    visibility: hidden;
-  }
-  header .contact {
-    position: absolute;
-    visibility: hidden;
-  }
-  .menu-button {
-    position: unset;
-    visibility: visible;
-  }
-  .main-section-1 {
-    width: 480px;
-    margin: 0;
-    padding-top: 118px;
-    padding-bottom: 118px;
-  }
-  .main-logo {
-    font-weight: 900;
-    font-size: 26px;
-    line-height: 42px;
-  }
-  .modal {
-    width: 450px;
-    height: 609px;
-  }
-  .modal h3 {
-    width: 370px;
-  }
-  .name-check {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    width: 346px;
-  }
-  .checkmark {
-    margin-left: 0px;
-  }
-  .modal-icon-1 {
-    top: 144px;
-  }
-  .modal-icon-2 {
-    top: 211.26px;
-  }
-  .modal-icon-3 {
-    top: 280px;
-  }
-  .contact-form-input {
-    width: 370px;
-  }
-  .contact-form-message {
-    width: 370px;
-  }
-  .main-section-2 {
-    width: 480px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  .main-section-2 .main-section-2-ul {
-    display: unset;
-  }
-  .main-section-2 h3, p {
-    text-align: center;
-  }
-  .li2, .li3, .li4 {
-    margin-left: 0px;
-    margin-top: 30px;
-  }
-  .container-sect-1, .container-sect-2, .container-sect-3, .container-sect-4 {
-    width: 450px;
-    height: 120px;
-  }
-  .main-section-2 li {
-    width: unset;
-  }
-  .main-section-3 {
-    position: absolute;
-    visibility: hidden;
-  }
-  .main-section-5 {
-    width: 480px;
-    margin-bottom: 40px;
-  }
-  .main-section-5 ul {
-    flex-wrap: wrap;
-    justify-content: left;
-  }
-  .li16, .li17 {
-    margin-top: 15px;
-  }
-  .li16 {
-    margin-left: 0px;
-  }
-  .main-section-9 {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  .footer {
-    width: 480px;
-  }
+/*
+
+@media (min-width:480px) {
+
+    header {
+        width: 480px;
+    }
+
+    .line {
+        width: 480px;
+    }
+
+    header .logo-link {
+        margin-right: 284px;
+    }
+
+    header nav {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    header .contact {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .menu-button {
+        position: unset;
+        visibility: visible;
+
+    }
+
+    .main-section-1 {
+        width: 480px;
+        margin: 0;
+
+        padding-top: 118px;
+        padding-bottom: 118px;
+    }
+
+    .main-logo {
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 42px;
+    }
+
+    .modal {
+        width: 450px;
+        height: 609px;
+    }
+
+    .modal h3 {
+        width: 370px;
+    }
+
+    .name-check {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        width: 346px;
+    }
+
+    .checkmark {
+        margin-left: 0px;
+    }
+
+    .modal-icon-1 {
+        top: 144px;
+    }
+
+    .modal-icon-2 {
+        top: 211.26px;
+    }
+
+    .modal-icon-3 {
+        top: 280px;
+    }
+
+    .contact-form-input {
+        width: 370px;
+    }
+
+    .contact-form-message {
+        width: 370px;
+    }
+
+    .main-section-2 {
+        width: 480px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .main-section-2 .main-section-2-ul {
+        display: unset;
+    }
+
+    .main-section-2 h3 , p {
+        text-align: center;
+    }
+
+    .li2, .li3, .li4 {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .container-sect-1 , .container-sect-2 , .container-sect-3 , .container-sect-4 {
+        width: 450px;
+        height: 120px;
+    }
+
+    .main-section-2 li {
+        width: unset;
+    }
+
+    .main-section-3 {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .main-section-5 {
+        width: 480px;
+        margin-bottom: 40px;
+    }
+
+    .main-section-5 ul {
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+    .li16 , .li17 {
+        margin-top: 15px;
+    }
+
+    .li16 {
+        margin-left: 0px;
+    }
+
+    .main-section-9 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .footer {
+        width: 480px;
+    }
+
 }
+
+*/
 /*
 
 @media (min-width:768px) and (max-width:1023px) {
