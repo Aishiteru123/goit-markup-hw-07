@@ -1381,12 +1381,9 @@ html, body {
 
     @media (min-width:768px) and (max-width:1023px) {
 
-        header {
-            width: 768px;
-        }
-
         .container {
             width: 768px;
+            margin: 0 auto;
         }
 
         .logo-link {
@@ -1432,11 +1429,10 @@ html, body {
         }
             
         .main-section-1 {
-            width: 768px;
-            margin: 0;
-
             padding-top: 118px;
             padding-bottom: 118px;
+
+            max-width: 768px;
         }
 
         .main-logo {
@@ -1492,7 +1488,6 @@ html, body {
         .main-section-2 {
             padding-top: 60px;
             padding-bottom: 60px;
-            width: 768px;
         }
 
         .li2, .li3, .li4 {
@@ -1539,7 +1534,6 @@ html, body {
         }
 
         .main-section-4 {
-            width: 768px;
             padding-top: 60px;
             padding-bottom: 90px;
         }
@@ -1600,29 +1594,19 @@ html, body {
         
 
         .line {
-            width: 768px;
-        }
-
-        .main-section-5 {
-            width: 768px;
-        }
-
-        .main-section-6 {
+            margin: 0 auto;
             width: 768px;
         }
 
         .main-section-6  ul{
-            width: 768px;
             flex-wrap: wrap;
         }
 
         .main-section-7  ul{
-            width: 768px;
             flex-wrap: wrap;
         }
 
         .main-section-8  ul{
-            width: 768px;
             flex-wrap: wrap;
         }
 
@@ -1634,8 +1618,8 @@ html, body {
 
         .li21 {
             position: absolute;
-            left: 399px;
-            top: 705px;
+            left: 505px;
+            top: 704px;
         }
 
         .li22 {
@@ -1647,23 +1631,14 @@ html, body {
             margin-top: 0px;
         }
 
-        .main-section-7 {
-            width: 768px;
-        }
-
-        .main-section-8 {
-            width: 768px;
-        }
-
         .main-section-10 .container {
             width: 768px;
+            margin: 0 auto;
         }
 
         .main-section-10 {
             padding-top: 60px;
             padding-bottom: 60px;
-
-            width: 768px;
         }
 
         .main-section-10 h2 {
@@ -1688,12 +1663,9 @@ html, body {
             margin-top: 30px;
         }
 
-        footer {
-            width: 768px;
-        }
-
         footer .container {
             width: 768px;
+            margin: 0 auto;
         }
 
         .footer-social-links {
