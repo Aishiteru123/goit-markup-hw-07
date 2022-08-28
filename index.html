@@ -6,6 +6,7 @@
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/ico">
   <link href="./css/main.min.css" rel="stylesheet">
   <script defer src="./javascript/modal.js"></script>
+  <script defer src="./javascript/menu.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,6 +15,39 @@
 </head>
 
 <body>
+
+  <div  data-menu>
+    <div class="menu">
+      <div class="menu-container">
+        <button class="svg-menu-close" data-menu-close></button>
+        <nav>
+          <ul>
+            <li class="menu-li1"><a href="./index.html">Студия</a></li>
+
+            <li class="menu-li2"><a href="./portfolio.html">Портфолио</a</li>
+
+            <li class="menu-li3"><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <ul>
+          <li class="menu-li4"><a class="menu-a1">+38 096 111 11 11</a></li>
+
+          <li class="menu-li5"><a class="menu-a2">info@devstudio.com</a></li>
+        </ul>
+
+        <ul class="menu-ul">
+          <li class="menu-li6"><a href="#">Instagram<span>|</span></a></li>
+
+          <li class="menu-li7"><a href="#">Twitter<span>|</span></a></li>
+
+          <li class="menu-li8"><a href="#">Facebook<span>|</span></a></li>
+
+          <li class="menu-li9"><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
   
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
@@ -227,7 +261,8 @@
         <ul>
           <li class="li8">
             <img class="LaptopPhoto" src="./images/igor.jpg" alt="игорь фото" width="270" height="428" />
-            <img class="TabletPhoto" src="./images/igorTablet.jpg" alt="игорь фото планшет" width="354px" height="536px"/>
+            <img class="MobilePhoto" src="./images/igorMobile.jpg" alt="игорь фото телефон" width="450" height="622" />
+            <img class="TabletPhoto" src="./images/igorTablet.jpg" alt="игорь фото планшет" width="354" height="536"/>
             <div class="name-prof">
               <h3 class="name">Игорь Демьяненко</h3>
               <p class="prof">Product Designer</p>
@@ -269,6 +304,7 @@
 
             <li class="li9">
               <img class="LaptopPhoto" src="./images/ola.jpg" alt="ольга фото" width="270" height="428" />
+              <img class="MobilePhoto" src="./images/olaMobile.jpg" alt="ольга фото телефон" width="450" height="622" />
               <img class="TabletPhoto" src="./images/olaTablet.jpg" alt="ольга фото планшет" width="354px" height="536px"/>
               <div class="name-prof">
                 <h3 class="name">Ольга Репина</h3>
@@ -312,6 +348,7 @@
 
             <li class="li10">
               <img class="LaptopPhoto" src="./images/nic.jpg" alt="николай фото" width="270" height="428" />
+              <img class="MobilePhoto" src="./images/nicMobile.jpg" alt="николай фото телефон" width="450" height="622" />
               <img class="TabletPhoto" src="./images/nicTablet.jpg" alt="николай фото планшет" width="354px" height="536px"/>
               <div class="name-prof">
                 <h3 class="name">Николай Тарасов</h3>
@@ -355,6 +392,7 @@
 
             <li class="li11">
               <img class="LaptopPhoto" src="./images/mih.jpg" alt="михаил фото" width="270" height="428" />
+              <img class="MobilePhoto" src="./images/mihMobile.jpg" alt="михаил фото телефон" width="450" height="622" />
               <img class="TabletPhoto" src="./images/mihTablet.jpg" alt="михаил фото планшет" width="354px" height="536px"/>
               <div class="name-prof">
                 <h3 class="name">Михаил Ермаков</h3>

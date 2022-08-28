@@ -5,6 +5,7 @@
   <title>Портфолио</title>
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/ico">
   <link href="./css/main.min.css" rel="stylesheet">
+  <script defer src="./javascript/menu.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,6 +14,39 @@
 </head>
 
 <body>
+  <div  data-menu>
+    <div class="menu">
+      <div class="menu-container">
+        <button class="svg-menu-close" data-menu-close></button>
+        <nav>
+          <ul>
+            <li class="menu-li1"><a href="./index.html">Студия</a></li>
+
+            <li class="menu-li2"><a href="./portfolio.html">Портфолио</a</li>
+
+            <li class="menu-li3"><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <ul>
+          <li class="menu-li4"><a class="menu-a1">+38 096 111 11 11</a></li>
+
+          <li class="menu-li5"><a class="menu-a2">info@devstudio.com</a></li>
+        </ul>
+
+        <ul class="menu-ul">
+          <li class="menu-li6"><a href="#">Instagram<span>|</span></a></li>
+
+          <li class="menu-li7"><a href="#">Twitter<span>|</span></a></li>
+
+          <li class="menu-li8"><a href="#">Facebook<span>|</span></a></li>
+
+          <li class="menu-li9"><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
   <header>
     <div class="container">
       <a class="logo-link" href="./index.html" lang="en">Web<span class="accentlogo">Studio</span></a>
@@ -76,6 +110,7 @@
             <li class="li18">
               <div class="overlay">
               <img class="LaptopPhoto" src="./images/imgtexno.jpg" alt="технохряк" width="370" height="404" />
+              <img class="MobilePhoto" src="./images/imgtexnoMobile.jpg" alt="технохряк телефон" width="450" height="404" />
               <img class="TabletPhoto" src="./images/imgtexnoTablet.jpg" alt="техно планшет" width="354" height="404" />
               <div class="name-project">
                 <h3 class="name2">Технохряк</h3>
@@ -94,7 +129,8 @@
 
             <li class="li19">
               <div class="overlay">
-                <img src="./images/imgposter.jpg" alt="постер" width="370" height="404" />
+                <img class="LaptopPhoto" src="./images/imgposter.jpg" alt="постер" width="370" height="404" />
+                <img class="MobilePhoto" src="./images/imgposterMobile.jpg" alt="постер телефон" width="450" height="404" />
                 <img class="TabletPhoto" src="./images/imgposterTablet.jpg" alt="постер планшет" width="354" height="404" />
               <div class="name-project">
                 <h3 class="name2">Постер New Orlean vs Golden Star</h3>
@@ -115,7 +151,8 @@
               
 
               <div class="overlay">
-                <img src="./images/imgrestoran.jpg" alt="ресторан" width="370" height="404" />
+                <img class="LaptopPhoto" src="./images/imgrestoran.jpg" alt="ресторан" width="370" height="404" />
+                <img class="MobilePhoto" src="./images/imgrestoranMobile.jpg" alt="ресторан телефон" width="450" height="404" />
                 <img class="TabletPhoto" src="./images/imgrestoranTablet.jpg" alt="ресторан планшет" width="354" height="404" />
               <div class="name-project">
                 <h3 class="name2">Ресторан Seafood</h3>
@@ -141,7 +178,8 @@
             <li class="li21">
 
               <div class="overlay">
-                <img src="./images/imgproekt.jpg" alt="проект прайм" width="370" height="404" />
+                <img class="LaptopPhoto" src="./images/imgproekt.jpg" alt="проект прайм" width="370" height="404" />
+                <img class="MobilePhoto" src="./images/imgproektMobile.jpg" alt="проект прайм телефон" width="450" height="404" />
                 <img class="TabletPhoto" src="./images/imgproektTablet.jpg" alt="проект прайм планшет" width="354" height="404" />
               <div class="name-project">
                 <h3 class="name2">Проект Prime</h3>
@@ -161,7 +199,8 @@
             <li class="li22">
               
               <div class="overlay">
-                <img src="./images/imgproekt2.jpg" alt="проект боксы" width="370" height="404" />
+                <img class="LaptopPhoto" src="./images/imgproekt2.jpg" alt="проект боксы" width="370" height="404" />
+                <img class="MobilePhoto" src="./images/imgproekt2Mobile.jpg" alt="проект боксы телефон" width="450" height="404" />
                 <img class="TabletPhoto" src="./images/imgproekt2Tablet.jpg" alt="проект боксы планшет" width="354" height="404" />
               <div class="name-project">
                 <h3 class="name2">Проект Boxes</h3>
@@ -181,7 +220,8 @@
 
             <li class="li23">
               <div class="overlay">
-                <img src="./images/imgins.jpg" alt="inspiration сайт" width="370" height="404" />
+                <img class="LaptopPhoto" src="./images/imgins.jpg" alt="inspiration сайт" width="370" height="404" />
+                <img class="MobilePhoto" src="./images/imginsMobile.jpg" alt="inspiration телефон" width="450" height="404" />
                 <img class="TabletPhoto" src="./images/imginsTablet.jpg" alt="inspiration планшет" width="354" height="404" />
               <div class="name-project">
                 <h3 class="name2">Inspiration has no Borders</h3>
@@ -206,7 +246,8 @@
           <ul>
             <li class="li24">
               <div class="overlay">
-                <img src="./images/imgizdanie.jpg" alt="издание" width="370" height="404" />
+                <img class="LaptopPhoto" src="./images/imgizdanie.jpg" alt="издание" width="370" height="404" />
+                <img class="MobilePhoto" src="./images/imgizdanieMobile.jpg" alt="издание телефон" width="450" height="404" />
                 <img class="TabletPhoto" src="./images/imgizdanieTablet.jpg" alt="издание планшет" width="354" height="404" />
               <div class="name-project">
                 <h3 class="name2">Издание Limited Edition</h3>
@@ -225,7 +266,8 @@
 
             <li class="li25">
               <div class="overlay">
-                <img src="./images/imglab.jpg" alt="lab проект" width="370" height="404" />
+                <img class="LaptopPhoto" src="./images/imglab.jpg" alt="lab проект" width="370" height="404" />
+                <img class="MobilePhoto" src="./images/imglabMobile.jpg" alt="проект телефон" width="450" height="404" />
                 <img class="TabletPhoto" src="./images/imglabTablet.jpg" alt="lab планшет" width="354" height="404" />
               <div class="name-project">
                 <h3 class="name2">Проект Lab</h3>
@@ -245,7 +287,8 @@
             <li class="li26">
 
               <div class="overlay">
-                <img src="./images/imggrow.jpg" alt="grow business" width="370" height="404" />
+                <img class="LaptopPhoto" src="./images/imggrow.jpg" alt="grow business" width="370" height="404" />
+                <img class="MobilePhoto" src="./images/imggrowMobile.jpg" alt="проект телефон" width="450" height="404" />
                 <img class="TabletPhoto" src="./images/imggrowTablet.jpg" alt="grow business" width="354" height="404" />
               <div class="name-project">
                 <h3 class="name2">Growing Business</h3>
