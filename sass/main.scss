@@ -1373,7 +1373,7 @@ html, body {
         }
 
         .line {
-            width: 480px;
+            width: 100%;
             margin: 0 auto;
         }
 
@@ -1658,7 +1658,6 @@ html, body {
 
     }
 
-    
     @media (min-width:768px) and (max-width:1200px) {
 
         .container {
@@ -1875,7 +1874,7 @@ html, body {
 
         .line {
             margin: 0 auto;
-            width: 768px;
+            width: 100%;
         }
 
         .main-section-6  ul{
