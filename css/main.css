@@ -1533,7 +1533,7 @@ footer a:focus {
     width: 450px;
   }
 }
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .container {
     width: 768px;
     margin: 0 auto;
@@ -1719,7 +1719,7 @@ footer a:focus {
   }
   .li21 {
     position: absolute;
-    left: 505px;
+    left: 399px;
     top: 704px;
   }
   .li22 {
